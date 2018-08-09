@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign in form without backend</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <form action="https://formspree.io/mateusz.wasiucionek@gmail.com" method="POST">
+        <h1>Book your ticket now!</h1>
         <input type="text" name="fname" placeholder="First name" required>
         <input type="text" name="lname" placeholder="Last name" required>
-        <input type="email" name="replyto" placeholder="e-mail" required>
+        <input type="email" name="_replyto" placeholder="e-mail" required>
 
         <label for="ticket">Chose ticket type:</label>
         <select name="ticket" id="ticket">
@@ -34,5 +36,3 @@
 </body>
 
 </html>
-
-57
